@@ -1,0 +1,21 @@
+
+# Update and Reboot System
+
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade
+sudo apt autoremove
+sudo apt autoclean
+sudo fwupdmgr get-devices
+sudo fwupdmgr get-updates
+sudo fwupdmgr update
+flatpak update
+sudo pop-upgrade recovery upgrade from-release # this updates the recovery partition
+sudo reboot now
+
+#Change Name Machine
+hostnamectl set-hostname precision
+
+
+# Instalation VLC
+sudo apt install -y vlc 
