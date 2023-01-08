@@ -13,6 +13,10 @@ flatpak update
 sudo pop-upgrade recovery upgrade from-release # this updates the recovery partition
 sudo reboot now
 
+#Install Proprietary Media Codecs and Fonts
+sudo apt install ubuntu-restricted-extras
+
+
 #Change Name Machine
 hostnamectl set-hostname precision
 
