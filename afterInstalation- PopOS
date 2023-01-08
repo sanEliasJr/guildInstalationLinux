@@ -16,6 +16,8 @@ sudo reboot now
 #Change Name Machine
 hostnamectl set-hostname precision
 
+# sudo apt install snapd
+sudo apt install snapd
 
 # Instalation VLC
 sudo apt install -y vlc 
